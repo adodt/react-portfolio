@@ -1,14 +1,16 @@
-import './App.css';
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import Header from './components/Header';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 function App() {
   return (
     <>
-    <div>
-      {/*<Header></Header>*/}
+      <div>
+       <Header></Header>
       </div>
-      </>
+    </>
   );
 }
 

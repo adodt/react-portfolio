@@ -8,13 +8,10 @@ function About () {
         <section className='title'>
             <div className='row justify-content-center' id='about-container'>
                 <Col lg={6} md={12}>
-                    <center><img src={alliProfile} className='alli-profile' alt='alli-profile'/></center>
-                    <p class='name'>Alli Dodt</p>
+                    <center><img src={alliProfile} className='alli-profile' alt='alli-profile' width='25%'/></center>
+                    <h2 class='name'>Alli Dodt</h2>
                     <p class='job'>full stack web developer</p>
                     <h2 class='education'>about me</h2>
-                    <p>
-                        Lorem Ipsum
-                    </p>
                 </Col>
             </div>
         </section>
